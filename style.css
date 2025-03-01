@@ -1,0 +1,40 @@
+body{
+  font-family: 'Montserrat', 'Open Sans', 'Noto Sans', 'sans-serif';
+}
+/* Header */
+header, footer{
+  background-color: mediumvioletred;
+  padding: 1em 1em;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+  header h1{
+    font-size: 3em;
+    margin: 1em 0;
+  }
+  /* Nav */
+  nav li{
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+  }
+/* Main */
+main{
+  margin: 0.5em auto;
+  width: 90%;
+  max-width: 960px;
+}
+  h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0.5em 0;
+  }
+  /* Article */
+  article{
+    margin: 1em 0;
+    padding: 1.2em 0.5em;
+    box-shadow: 1px 1px 3px 0px gray;
+  }
+/* Footer */
